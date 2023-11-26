@@ -1,0 +1,81 @@
+/* Hovedstil */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header stil */
+#header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Portefølje stil */
+#portfolio {
+    padding: 20px;
+    background: #e2e2e2;
+    text-align: center;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#portfolio h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+#portfolio p {
+    text-align: left;
+}
+
+.bilde {
+    display: inline;
+    
+}
+
+.bilde img {
+    object-fit: cover;
+    object-position: 50% 10%;
+    width: 19%;
+    height: 200px;
+}
+
+/* Kontakt oss stil */
+#contact {
+    padding: 10px;
+    text-align: center;
+    line-height: 0.5;
+    font-size: 14px;
+}
+
+/* Sosiale medier stil */
+#social-media {
+    margin-top: 20px;
+}
+
+#social-media a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Fotnote stil */
+#footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
